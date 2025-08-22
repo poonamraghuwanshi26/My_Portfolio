@@ -6,7 +6,7 @@ It’s built with React + Vite for a fast and modern experience.
 
 🚀 Live Demo
 
-🔗 View My Portfolio
+🔗 View My Portfolio(https://my-portfolio-iota-flame-46.vercel.app/)
 
 ✨ Features
 
@@ -32,7 +32,7 @@ Deployment: Vercel
 
 Clone the repository:
 
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/poonamraghuwanshi26/My_Portfolio.git
 
 
 Navigate into the project:
@@ -53,8 +53,8 @@ npm run dev
 
 If you’d like to connect, feel free to reach out:
 
-📧 Email: your.email@example.com
+📧 Email: poonamraghuvanshi26@gmail.com
 
-💼 LinkedIn: Your LinkedIn
+💼 LinkedIn:(https://www.linkedin.com/in/poonam-raghuwanshi-bba721289)
 
 <div align="center">💙 Built with passion by <b>Poonam Raghuwanshi</b> 💙</div>
