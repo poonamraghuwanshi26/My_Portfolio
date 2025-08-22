@@ -1,5 +1,4 @@
 import HeroImg from "@/assets/images/hero.jpg";
-import OlovaLogo from "@/assets/images/olova.png";
 
 export default function About() {
   return (
@@ -15,7 +14,7 @@ export default function About() {
                 <img
                   src={HeroImg}
                   className="rounded-[15px] shadow block"
-                  alt="payments illustration"
+                  alt="Poonam Raghuwanshi"
                   width={1207}
                   height={929}
                 />
@@ -24,45 +23,31 @@ export default function About() {
 
             <div className="relative space-y-4">
               <p className="text-white">
-                Hello! I'm Nazmul Hossain, a passionate JavaScript developer
-                specializing in creating innovative web solutions and
-                user-friendly interfaces.{" "}
-                <span className="font-bold text-white">
-                  As the creator of the OlovaJS UI Framework
-                </span>
-                , I'm dedicated to simplifying development workflows.
+                I am Poonam Raghuwanshi, a Computer Science undergraduate
+                specializing in MERN Stack Development, Frontend Engineering,
+                and Backend API Design. Skilled in JavaScript, React.js, Redux
+                Toolkit, Tailwind CSS, Node.js, Express.js, and MongoDB, I focus
+                on building scalable full-stack applications with strong
+                performance and user-friendly design. I also have a solid
+                foundation in C, Core Java, and Git/GitHub
+                workflows.{" "}
+               
               </p>
               <p className="text-white">
-                My focus is on making web development faster, easier, and
-                accessible to all developers. Currently, I'm expanding into
-                backend development to grow as a full-stack developer and create
-                seamless, robust web applications.
+                My projects include an AI-Powered Civic Complaint Reporting System, an AI-Driven Image Compression Platform, a Full-Stack Vacation Rental Platform with Razorpay payments, and a URL Shortener backend service. These projects highlight expertise in REST APIs, JWT authentication & authorization, payment integration, and cloud deployment, demonstrating my ability to deliver production-ready solutions.
               </p>
 
               <div className="pt-6">
                 <blockquote className="border-l-4 border-gray-300 pl-4">
                   <p className="text-white">
-                    I'm a lifelong learner and innovator, driven by a desire to
-                    contribute to the developer community with new ideas and
-                    tools that deliver real value. As the creator of OlovaJS,
-                    I'm pushing the boundaries of JavaScript frameworks to
-                    empower developers worldwide.
+                    Beyond development, I contribute as an ACM Student Chapter Treasurer, gaining leadership and collaboration experience. Recognized as an Outstanding Participant in Web Development workshops and a Finalist at Codictive 3.0 Hackathon, I aim to apply my skills to create innovative, efficient, and user-centric applications while growing as a Full-Stack Developer.
                   </p>
 
                   <div className="mt-6 space-y-3">
                     <cite className="block font-medium text-white">
-                      Nazmul Hossain, Creator of
+                      Poonam Raghuwanshi
                     </cite>
-                    <div className="flex items-center gap-2">
-                      <img
-                        className="h-5 w-fit"
-                        src={OlovaLogo}
-                        alt="Olova Logo"
-                        height="20"
-                        width="auto"
-                      />
-                      <span className="text-white">OlovaJS</span>
-                    </div>
+                    
                   </div>
                 </blockquote>
               </div>

@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import EducationLoader from "@/components/ui/EducationLoader";
 import {
-  Star,
   Award,
   Calendar,
   BookOpen,
-  GraduationCap,
   Trophy,
 } from "lucide-react";
 import { motion } from "framer-motion";
@@ -15,24 +12,29 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
-      mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      degree: "Bachelor of Technology (B.Tech) in Computer Science",
+      school: "Oriental Institute of Science and Technology, Bhopal",
+      mascot: "🎓",
+      year: "Sept 2022 – Present",
+      achievements: ["GPA: 8.22 / 10.0"],
+      skills: [
+        "Data Structures & Algorithms",
+        "Operating Systems",
+        "DBMS",
+        "Software Engineering",
+      ],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+        "Pursuing Computer Science with focus on full-stack development, database management, operating systems, and software engineering principles.",
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
-      mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      degree: "Higher Secondary Education (PCM)",
+      school: "Narmada Valley Academy",
+      mascot: "📘",
+      year: "April 2020 – Sept 2022",
+      achievements: ["Percentage: 83%"],
+      skills: ["Physics", "Chemistry", "Mathematics"],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Completed higher secondary education with a science background, developing strong fundamentals in core subjects and problem-solving skills.",
     },
   ];
 
@@ -40,9 +42,7 @@ const EducationSection = () => {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.2,
-      },
+      transition: { staggerChildren: 0.2 },
     },
   };
 
@@ -51,10 +51,7 @@ const EducationSection = () => {
     visible: {
       y: 0,
       opacity: 1,
-      transition: {
-        duration: 0.6,
-        ease: "easeOut",
-      },
+      transition: { duration: 0.6, ease: "easeOut" },
     },
   };
 
@@ -78,8 +75,7 @@ const EducationSection = () => {
             Educational Journey
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto text-lg">
-            Discover how academic excellence shapes innovative thinking and
-            professional growth.
+            My academic path reflects a balance of technical expertise and strong problem-solving skills.
           </p>
         </motion.div>
 
@@ -105,9 +101,7 @@ const EducationSection = () => {
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
                     <span className="text-3xl">{edu.mascot}</span>
-                    <h3 className="text-2xl font-bold text-white">
-                      {edu.degree}
-                    </h3>
+                    <h3 className="text-2xl font-bold text-white">{edu.degree}</h3>
                   </div>
                   <p className="text-lg text-gray-300 flex items-center gap-2">
                     <BookOpen className="w-5 h-5 text-teal-500" />
